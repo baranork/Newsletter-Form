@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    background-color: #aaa;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popupform{
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formTitle{
+    display: flex;
+    background: #AB47BC;
+    height: 80px;
+    border-radius: 10px 10px 0  0;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.formBody{
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+input[type = "text"]{
+    outline: none;   
+    background: #e8ebed;
+    height: 35px;
+    border-radius: 5px 5px 2px 2px;
+    border: none;
+    border-bottom: 2px solid #AB47BC;
+    padding: 5px 15px;
+    margin: 0 15px;
+    width: 100%;
+    color: #576366;
+    font-size: 14px;
+}
+
+.rule{
+    background: #e8ebed;
+    height: 2px;
+    margin: 0px 35px;
+}
+
+.formFooter{
+    margin: 0 25px 15px 25px;
+    padding: 15px 10px;
+  }
+
+a{
+    display: inline-block;
+    background-color: #AB47BC;
+    height: 35px;
+    line-height: 225%;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    
+}
+
+a:hover{
+    background-color: #7a1fa2;
+}
